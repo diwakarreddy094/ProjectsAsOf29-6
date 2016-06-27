@@ -15,6 +15,9 @@ public class ShowRoom {
 			return new MarutiCars();
 		case 2:
 			return new ToyotaCars();
+		case 3:
+			return new HyundaiCars();
+				
 		default:
 				return null;
 				
