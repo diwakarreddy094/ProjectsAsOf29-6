@@ -1,8 +1,8 @@
 package com.training;
 
 public class TaxWhiz {
-double CurrentTaxRate;
-double SurchargeRate;
+private double CurrentTaxRate;
+private double SurchargeRate;
 
 public TaxWhiz() {
 	super();
@@ -31,8 +31,8 @@ public void setSurchargeRate(double surchargeRate) {
 	SurchargeRate = surchargeRate;
 }
 
-public  double CalcTax(double TaxRate,double SurchargeRate,double Amount)
+public  double CalcTax(double Amount)
 {
-	return (Amount*TaxRate/100+Amount+Amount*TaxRate/100*SurchargeRate/100);
+	return (Amount*CurrentTaxRate/100+Amount+Amount*CurrentTaxRate/100*SurchargeRate/100);
 }
 }

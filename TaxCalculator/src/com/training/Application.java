@@ -6,7 +6,7 @@ public class Application {
 		// TODO Auto-generated method stub
 
 		TaxWhiz tax=new TaxWhiz(10, 5);
-		System.out.println(tax.CalcTax(10, 5, 1500));
+		System.out.println(tax.CalcTax(1500));
 	}
 
 }
