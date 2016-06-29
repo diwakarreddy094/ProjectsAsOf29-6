@@ -23,10 +23,11 @@ public class Application {
    {
    case 1:
    {
-	   for(MediaTypes n:media)
-		   
 	   {
-		   
+		   System.out.println("Title"+media[0].getTitle());
+		   System.out.println("Author"+media[0].getAuthor());
+		   System.out.println("Subject"+media[0].getSubject());
+		   System.out.println("Running Time"+media[0].getRunningTime());
 	   }
    }
    case 2:
